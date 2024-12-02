@@ -192,7 +192,7 @@ export default function About() {
           <p className="text-lg sm:text-xl text-gray-700 leading-relaxed mb-4 ml-20 md:ml-2 md:mt-20">
             My name is <span className="font-bold text-blue-700">Keerthana J K</span>. 
             I'm a <span className="text-primary font-semibold">Frontend Developer </span> 
-            based in <span className="font-semibold text-gray-800">Krishnagiri, TamilNadu</span>.
+            based in <span className="font-semibold text-gray-800">Bangalore</span>.
           </p>
           <p className="text-lg sm:text-xl text-gray-700 leading-relaxed ml-16 md:ml-2">
             I am a professional and passionate programmer with a quick learning and 
