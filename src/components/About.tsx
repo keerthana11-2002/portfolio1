@@ -136,7 +136,7 @@
 //           <p className="text-lg sm:text-xl text-gray-700 leading-relaxed mb-4">
 //             My name is <span className="font-bold text-gray-800">Keerthana J K</span>. 
 //             I'm a <span className="text-primary font-semibold">Frontend Developer</span> 
-//             based in <span className="font-semibold text-gray-800">Krishnagiri, TamilNadu</span>.
+//             based in <span className="font-semibold text-gray-800">Bangalore</span>.
 //           </p>
 //           <p className="text-lg sm:text-xl text-gray-700 leading-relaxed">
 //             I am a professional and passionate programmer with a quick learning and 
