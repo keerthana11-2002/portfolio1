@@ -154,11 +154,11 @@ import { motion } from "framer-motion";
 
 export default function About() {
   return (
-    <div className="py-10">
+    <div className="py-20">
     <h2 className="text-4xl sm:text-5xl font-extrabold text-blue-700 mb-4 text-center    ">
             Who I Am
           </h2>
-    <section className="py-72 bg-gradient-to-b from-gray-50 to-gray-100" id="about">
+    <section className="py-14 bg-gradient-to-b from-gray-50 to-gray-100" id="about">
       <div className="container mx-auto px-6 sm:px-12 lg:px-20 flex flex-col lg:flex-row items-center lg:items-start">
       
         {/* Animated and Dynamic Image */}
