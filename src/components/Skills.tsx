@@ -613,7 +613,7 @@ const Skills = () => {
   }, []);
 
   return (
-    <div className="skills py-12">
+    <div id="py-12">
       <h2 className="text-4xl font-bold text-center mb-12 text-blue-700">Skills</h2>
       <motion.div
         className="skills-carousel"
