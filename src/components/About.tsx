@@ -155,7 +155,7 @@ import { motion } from "framer-motion";
 export default function About() {
   return (
     <div className="py-20">
-    <h2 className="text-4xl sm:text-5xl font-extrabold text-blue-700 mb-4 text-center     ">
+    <h2 className="text-4xl sm:text-5xl font-extrabold text-blue-700 md:mb-4 text-center     ">
             Who I Am
           </h2>
     <section className="py-32 bg-gradient-to-b from-gray-50 to-gray-100" id="about">
