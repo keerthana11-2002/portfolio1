@@ -4,9 +4,9 @@ import { motion } from 'framer-motion';
 const educationData = [
   {
     year: '2024',
-    degree: 'FrontEnd Internship',
+    degree: 'Frontend Intern',
     school: 'Unified Mentor',
-    description: '',
+    description:'Developed responsive web applications using React, improved UI/UX, and collaborated with a team to deliver scalable solutions.',
     image: 'side1.png'  
   },
   {
