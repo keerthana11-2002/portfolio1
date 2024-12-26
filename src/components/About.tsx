@@ -8,8 +8,7 @@ export default function About() {
           </h2>
     <section className="py-32 bg-gradient-to-b from-gray-50 to-gray-100" id="about">
       <div className="container mx-auto px-6 sm:px-12 lg:px-20 flex flex-col lg:flex-row items-center lg:items-start">
-      
-        {/* Animated and Dynamic Image */}
+    
         <motion.div
           className="lg:w-1/2 mb-8 lg:mb-0 relative"
           initial={{ opacity: 0, x: -100 }}
@@ -24,12 +23,10 @@ export default function About() {
               whileHover={{ scale: 1.1 }}
               transition={{ duration: 0.4 }}
             />
-            {/* Glow Effect on Laptop */}
             <div className="absolute bottom-0 left-0 w-full h-1/3  rounded-b-lg animate-pulse"></div>
           </div>
         </motion.div>
         
-        {/* About Section */}
         <motion.div
           className="lg:w-1/2 lg:pl-12 text-center lg:text-left -ml-20"
           initial={{ opacity: 0, x: 100 }}
