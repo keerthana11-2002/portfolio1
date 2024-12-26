@@ -154,7 +154,7 @@ import { motion } from "framer-motion";
 
 export default function About() {
   return (
-    <>
+    <div className="py-28">
     <h2 className="text-4xl sm:text-5xl font-extrabold text-blue-700 mb-6 text-center mt-20">
             Who I Am
           </h2>
@@ -205,6 +205,6 @@ export default function About() {
         </motion.div>
       </div>
     </section>
-    </>
+    </div>
   );
 }
