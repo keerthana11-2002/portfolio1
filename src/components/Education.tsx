@@ -1,84 +1,34 @@
-
-// import { GraduationCap, Calendar } from 'lucide-react';
-
-// const educationData = [
-//   {
-//     year: '2023',
-//     degree: 'FrontEnd Development',
-//     school: 'AlmaBetter Insitution',
-//     description: 'Strong in web Development'
-//   },
-//   {
-//     year: '2020 - 2023',
-//     degree: 'Bachelor of Science in Computer Science',
-//     school: 'Gonzaga College of Arts And Science',
-//     description: ''
-//   },
-//   {
-//     year: '2018 - 2020',
-//     degree: 'Selva Matric Hr Sec School',
-//     school: 'Krishnagiri, Tamilnadu',
-//     description: "",
-//   }
-// ];
-
-// export default function Education() {
-//   return (
-//     <section className="py-20 bg-white" id="education">
-//       <div className="container mx-auto px-4">
-//         <h2 className="text-4xl font-bold text-center mb-16 text-gray-800">Education Journey</h2>
-//         <img src="side1.png" alt="img"/>
-//         <div className="max-w-3xl mx-auto">
-//           {educationData.map((item, index) => (
-//             <div key={index} className="relative pl-8 pb-12 last:pb-0">
-//               {/* Timeline line */}
-//               <div className="absolute left-0 top-0 h-full w-0.5 bg-blue-200">
-//                 <div className="absolute -left-2 -top-2 w-5 h-5 rounded-full bg-blue-500 flex items-center justify-center">
-//                   <GraduationCap size={14} className="text-white" />
-//                 </div>
-//               </div>
-              
-//               {/* Content */}
-//               <div className="bg-gray-50 rounded-lg p-6 ml-6 shadow-sm hover:shadow-md transition">
-//                 <div className="flex items-center gap-2 text-blue-600 mb-2">
-//                   <Calendar size={16} />
-//                   <span className="font-medium">{item.year}</span>
-//                 </div>
-//                 <h3 className="text-xl font-bold text-gray-800 mb-1">{item.degree}</h3>
-//                 <p className="text-lg text-gray-600 mb-2">{item.school}</p>
-//                 <p className="text-gray-500">{item.description}</p>
-//               </div>
-//             </div>
-//           ))}
-//         </div>
-//       </div>
-//     </section>
-//   );
-// }
 import { GraduationCap, Calendar } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 const educationData = [
   {
-    year: '2023',
+    year: '2024',
+    degree: 'FrontEnd Internship',
+    school: 'Unified Mentor',
+    description: '',
+    image: 'side1.png'  
+  },
+  {
+    year: '2023-2024',
     degree: 'FrontEnd Development',
     school: 'AlmaBetter Institution',
     description: '',
-    image: 'side1.png' // Dynamically added image
+    image: 'side1.png'  
   },
   {
     year: '2020 - 2023',
     degree: 'Bachelor of Science in Computer Science',
     school: 'Gonzaga College of Arts And Science',
     description: '',
-    image: 'side2.png' // Dynamically added image
+    image: 'side2.png' 
   },
   {
     year: '2018 - 2020',
     degree: 'Selva Matric Hr Sec School',
     school: 'Krishnagiri, Tamilnadu',
     description: '',
-    image: 'side3.png' // Dynamically added image
+    image: 'side3.png' 
   }
 ];
 
@@ -89,7 +39,6 @@ export default function Education() {
         <h2 className="text-4xl font-bold text-center mb-16 text-blue-700">Education Journey</h2>
         
         <div className="flex flex-col lg:flex-row justify-center items-center gap-12">
-          {/* Dynamic Image with Animation */}
           <motion.div
             className="max-w-2xl flex-1"
             initial={{ opacity: 0 }}
@@ -112,14 +61,11 @@ export default function Education() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1, delay: 0.3 * index }}
               >
-                {/* Timeline line */}
                 <div className="absolute left-0 top-0 h-full w-0.5 bg-blue-200">
                   <div className="absolute -left-2 -top-2 w-5 h-5 rounded-full bg-blue-500 flex items-center justify-center">
                     <GraduationCap size={14} className="text-white" />
                   </div>
                 </div>
-
-                {/* Content */}
                 <motion.div
                   className="bg-gray-50 rounded-lg p-6 ml-6 shadow-lg hover:shadow-xl transition-all duration-300 ease-in-out transform hover:scale-105"
                   initial={{ opacity: 0 }}
