@@ -26,7 +26,7 @@ export default function Hero() {
                 className="px-6 py-3 border-blue-700  text-blue-700 font-semibold rounded-lg shadow-lg hover:shadow-xl hover:bg-blue-700 hover:text-white transition-all duration-300"
                 whileHover={{ scale: 1.05 }}
               >
-                <a href="https://drive.google.com/file/d/1btZfusWG9BJD6KnAbqd5ViBLmfBfr5Lm/view">Download CV</a>
+                <a href="https://drive.google.com/file/d/16bHNHeKx6vj4aLtKnHyJxwMgqZ4Cpv-O/view?usp=drive_link">Download CV</a>
               </motion.button>
               <motion.button
                 className="px-6 py-3 bg-blue-700 text-white font-semibold rounded-lg shadow-lg hover:shadow-xl hover:text-blue-700 hover:bg-purple-100 transition-all duration-300"
