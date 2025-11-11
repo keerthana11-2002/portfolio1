@@ -36,16 +36,16 @@ export default function About() {
           
           <p className="text-lg sm:text-xl text-gray-700 leading-relaxed mb-4 ml-20 md:ml-2 md:mt-20">
             My name is <span className="font-bold text-blue-700">Keerthana J K</span>. 
-            I'm a <span className="text-primary font-semibold">Frontend Developer </span> 
+            I'm a <span className="text-primary font-semibold">QA Automation Engineer </span> 
             based in <span className="font-semibold text-gray-800">Bangalore</span>.
           </p>
           <p className="text-lg sm:text-xl text-gray-700 leading-relaxed ml-16 md:ml-2">
             I am a professional and passionate programmer with a quick learning and 
             self-driven attitude. I enjoy exploring new technologies and bringing ideas 
             to life through clean and efficient code. My current expertise includes: <span className="text-blue-700 font-medium">  
+          Manual and Automation Testing, with hands-on experience in tools and frameworks such as Selenium, Playwright, TestNG, and API Testing using Java. </span> 
+
             
-            HTML, CSS, JavaScript, React.js, Bootstrap, Tailwind CSS, MySQL, and Git. </span> 
-            I love creating innovative solutions that make a difference.
           </p>
         </motion.div>
       </div>
