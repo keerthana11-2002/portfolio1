@@ -18,17 +18,15 @@ export default function Hero() {
                QA Automation Engineer
             </h2>
             <p className="text-lg text-gray-700 leading-relaxed mb-8">
-              I'm passionate about crafting responsive, user-friendly interfaces
-              with modern web technologies. Turning ideas into visually appealing
-              and functional designs is my forte, ensuring seamless user
-              experiences.
+              I'm passionate about ensuring software quality through thorough testing and automation. I focus on creating reliable, efficient test scripts using modern tools like Selenium, TestNG, Playwright and Java to deliver flawless user experiences.
+
             </p>
             <div className="flex gap-4">
               <motion.button
                 className="px-6 py-3 border-blue-700  text-blue-700 font-semibold rounded-lg shadow-lg hover:shadow-xl hover:bg-blue-700 hover:text-white transition-all duration-300"
                 whileHover={{ scale: 1.05 }}
               >
-                <a href="https://drive.google.com/file/d/1BYKemRccVPxEiZl6DB1tQqHsK_sZa5zh/view?usp=sharing">Download CV</a>
+                <a href="https://drive.google.com/file/d/1btZfusWG9BJD6KnAbqd5ViBLmfBfr5Lm/view">Download CV</a>
               </motion.button>
               <motion.button
                 className="px-6 py-3 bg-blue-700 text-white font-semibold rounded-lg shadow-lg hover:shadow-xl hover:text-blue-700 hover:bg-purple-100 transition-all duration-300"
@@ -51,7 +49,7 @@ export default function Hero() {
                 },
                 {
                   icon: <Linkedin size={24} />,
-                  link: "https://www.linkedin.com/in/keerthana-k-16b6442a0/",
+                  link: "https://www.linkedin.com/in/keerthana-j-k-1ba370370/",
                   bg: 'bg-blue-600 hover:bg-blue-500',
                 },
               ].map((item, index) => (
