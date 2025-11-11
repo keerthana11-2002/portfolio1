@@ -4,47 +4,47 @@ import { motion, AnimatePresence } from 'framer-motion';
 
 const projects = [
   {
-    title: 'Hirez',
-    description: 'Job Portal App with advanced filtering and real-time notifications',
-    image:"logo31.png",
-    longDescription: 'A comprehensive job portal platform that connects employers with potential candidates. Features include advanced job filtering, real-time notifications, and an intuitive application process.',
-    technologies: ['React', 'Clerk', 'Supabase', 'Tailwind CSS','ShadCN UI'],
-    liveLink: 'https://hirez-project1.vercel.app/',
-    features: [
-      'Advanced job search and filtering',
-      'Real-time notifications',
-      'User-friendly application process',
-      'Responsive design'
-    ]
-  },
-  {
-    title: 'Plannr',
-    description: 'Schedule Meetings with ease and efficiency',
-    image: "logo41.png",
+    title: 'Factorial Web App – Automation Testing',
+    description: 'Automated testing of a Factorial Calculator Web Application to ensure accurate calculation results and validate input scenarios',
+    image: "https://factorialhr.com/images/factorial-open-graph.png",
     longDescription: 'A meeting scheduling application that simplifies the process of organizing and managing meetings. Includes features for time zone management and integration with popular calendar services.',
-    technologies: ['Next.js', 'Clerk', 'PostgreSQL', 'Tailwind','Neon','ShadCN UI'],
-    liveLink: 'https://plannr-two.vercel.app/',
+    technologies: ['Selenium', 'POM', 'TestNG', 'Maven','Data driven','Chrome Driver'],
+    liveLink: 'https://qainterview.pythonanywhere.com/',
     features: [
-      'Calendar integration',
-      'Time zone management',
-      'Team scheduling',
-      'Meeting reminders'
+      'Created test scripts to validate factorial calculations for different input values',
+      'Implemented TestNG framework for test case organization, execution,',
+      'Executed tests on multiple browsers to ensure cross-browser compatibility.',
+      'Maintained test data and test results efficiently.'
     ]
   },
   {
-    title: 'VidFusion',
-    description: 'Video Streaming Platform with enhanced features',
-    image: "logo52.png",
-    longDescription: 'A modern video streaming platform that offers seamless playback and content organization. Features include playlist management, custom video recommendations, and social sharing capabilities.',
-    technologies: ['React', 'Vite', 'Youtube API'],
-    liveLink: 'https://youtube-seven-sigma.vercel.app/',
+    title: 'Automation Course Web App – Playwright Automation',
+    description:'Automated testing of an Automation Course Web Application using Playwright and Java to validate end-to-end workflows, user interactions, and form submissions.',
+    image: "https://www.testim.io/wp-content/uploads/2019/11/Automated-Testing.jpg",
+    longDescription:'Automated testing of an Automation Course Web Application using Playwright and Java to validate end-to-end workflows, user interactions, and form submissions. Focused on ensuring the application functions correctly across different scenarios without using a full Page Object Model (POM).',
+    technologies: ['Playwright', 'Java', 'Maven','Chrome','Edge','Eclipse'],
+    liveLink: 'https://freelance-learn-automation.vercel.app/login',
     features: [
-      'Seamless video playback',
-      'Custom recommendations',
-      'Playlist management',
-      'Social sharing'
+      'Developed automated test scripts for key workflows such as course registration, login',
+      'Implemented Playwright locators and commands for UI element interaction and validation.',
+      'Maintained test data for different user scenarios and handled dynamic elements.',
+      'Ensured test reliability by handling synchronization and wait conditions effectively.'
     ]
-  }
+  },
+   {
+    title: 'Make My Trip - Manual Testing',
+    description: 'Performed regression testing on the MakeMyTrip web application to ensure that recent updates and bug fixes did not impact existing features.',
+    image: "https://media.telanganatoday.com/wp-content/uploads/2025/08/Makemytrip.jpg",
+    longDescription: 'Identified and re-executed test cases from previous test cycles to confirm stable functionality after code changes and Verified core modules — flight booking, login, and payment — to ensure no new defects were introduced.',
+    technologies: ['Excel','JIRA','Browser Developer tool'],
+    liveLink: 'https://qainterview.pythonanywhere.com/',
+     Scenario: [
+      'Verify the train icon',
+      'Verify the regression test',
+      'Verify the explore world link',
+      'Verify the browser title'
+    ]
+  },
 ];
 
 const container = {
