@@ -15,7 +15,7 @@ export default function Hero() {
               Hi, I'm <span className="text-blue-700 ">Keerthana</span>
             </h1>
             <h2 className=" text-2xl md:text-4xl  mb-4 font-semibold">
-              Frontend Developer
+               QA Automation Engineer
             </h2>
             <p className="text-lg text-gray-700 leading-relaxed mb-8">
               I'm passionate about crafting responsive, user-friendly interfaces
