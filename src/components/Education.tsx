@@ -3,25 +3,18 @@ import { motion } from 'framer-motion';
 
 const educationData = [
   {
-    year: '2024',
-    degree: 'Frontend Intern',
-    school: 'Unified Mentor',
-    description:'Developed responsive web applications using React, improved UI/UX, and collaborated with a team to deliver scalable solutions.',
-    image: 'side1.png'  
-  },
-  {
-    year: '2023-2024',
-    degree: 'FrontEnd Development',
-    school: 'AlmaBetter Institution',
+    year: '2025',
+    degree: 'QA Automation Engineer',
+    school: 'Grow SkillIt Insitution',
     description: '',
-    image: 'side1.png'  
+    image: 'side1.png'
   },
   {
     year: '2020 - 2023',
     degree: 'Bachelor of Science in Computer Science',
     school: 'Gonzaga College of Arts And Science',
     description: '',
-    image: 'side2.png' 
+    image: 'side2.png'  
   },
   {
     year: '2018 - 2020',
