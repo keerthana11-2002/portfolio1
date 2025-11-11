@@ -2,16 +2,17 @@ import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 
 const skills = [
-  { name: 'HTML', icon: '/html.png' },
-  { name: 'CSS', icon: '/css.png' },
-  { name: 'JavaScript', icon: '/javascript.png' },
-  { name: 'ReactJS', icon: '/react.png' },
-  { name: 'Tailwind CSS', icon: '/tailwind.png' },
-  { name: 'Bootstrap', icon: '/bootstrap.png' },
-  { name: 'SASS', icon: 'https://static-00.iconduck.com/assets.00/sass-icon-2048x2048-js3fulee.png' },
-  { name: 'Material UI', icon: '/material.png' },
-  { name: 'SQL', icon: '/sql.png' },
+   { name: 'Manual Testing', icon: 'https://cdn.azilen.com/wp-content/uploads/2023/07/Manual-testing.jpg' },
+  { name: 'Automation Testing', icon: 'https://5.imimg.com/data5/UM/QX/OR/GLADMIN-54579732/automation.jpg' },
+  { name: 'Java', icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9n6QSmgQptW2phyDWe1k6ZA8eRzhjlx2Vxg&s' },
+  { name: 'Selenium', icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Selenium_Logo.png/980px-Selenium_Logo.png' },
+  { name: 'Playwright', icon: 'https://miro.medium.com/v2/1*gMiUPuRGC36nxZHe2zthOg.png' },
+  { name: 'TestNG', icon: 'https://img-c.udemycdn.com/course/480x270/2325910_e7ae_10.jpg' },
+  { name: 'Maven', icon: 'https://miro.medium.com/v2/1*_QEbRZJ722FK7PdSNYV_yA.jpeg' },
+  { name: 'Agile', icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDtFbMDrL2qz7WSAOp9HsdsA1X0GPcAvnfYg&s' },
+  { name:'Postman', icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJ5yPOAbr-LrEa8ANO47RBo4f2txsvjPL-fw&s' },
   { name: 'Git', icon: '/git.png' }
+   
 ]; 
 const cardVariants = {
   hidden: { opacity: 0, x: 50 }, // Start hidden and to the right
@@ -82,7 +83,7 @@ const Skills = () => {
               <img
                 src={item.icon}
                 alt={item.name}
-                className="w-16 h-16 object-contain mb-4 rounded-full transition-all duration-300"
+                className="w-20 h-20 object-contain mb-4 rounded-full transition-all duration-300"
               />
               <h3 className="text-lg font-medium text-gray-800">{item.name}</h3>
             </motion.div>
