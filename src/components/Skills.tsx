@@ -5,13 +5,17 @@ const skills = [
    { name: 'Manual Testing', icon: 'https://cdn.azilen.com/wp-content/uploads/2023/07/Manual-testing.jpg' },
   { name: 'Automation Testing', icon: 'https://5.imimg.com/data5/UM/QX/OR/GLADMIN-54579732/automation.jpg' },
   { name: 'Java', icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9n6QSmgQptW2phyDWe1k6ZA8eRzhjlx2Vxg&s' },
-  { name: 'Selenium', icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Selenium_Logo.png/980px-Selenium_Logo.png' },
+ { name: 'Python', icon: 'https://www.321webmarketing.com/wp-content/uploads/2018/06/Python-language-symbol-1024x512.jpg' },
+
+  { name: 'Selenium', icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxWUwn1FlhKU9O6PACz_IqFi1xgrszclKn1w&s' },
   { name: 'Playwright', icon: 'https://miro.medium.com/v2/1*gMiUPuRGC36nxZHe2zthOg.png' },
   { name: 'TestNG', icon: 'https://img-c.udemycdn.com/course/480x270/2325910_e7ae_10.jpg' },
   { name: 'Maven', icon: 'https://miro.medium.com/v2/1*_QEbRZJ722FK7PdSNYV_yA.jpeg' },
   { name: 'Agile', icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDtFbMDrL2qz7WSAOp9HsdsA1X0GPcAvnfYg&s' },
   { name:'Postman', icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJ5yPOAbr-LrEa8ANO47RBo4f2txsvjPL-fw&s' },
   { name: 'Git', icon: '/git.png' }
+   { name:'ISTQB', icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUK6X-yw4nitNDDvx7fTk16OBhW2yZz8mcvw&s' },
+
    
 ]; 
 const cardVariants = {
