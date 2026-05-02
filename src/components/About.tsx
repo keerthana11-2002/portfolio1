@@ -48,10 +48,10 @@ export default function About() {
           </p>
           {/* ✅ Certification placed here */}
 <div className="mt-6 ml-16 md:ml-2">
-  <p className="text-md font-semibold text-gray-800">
+  <p className="text-lg sm:text-xl text-gray-700 leading-relaxed ml-16 md:ml-2">
     Certification:
   </p>
-  <p className="text-sm text-gray-700">
+  <p className="text-lg sm:text-xl text-gray-700 leading-relaxed ml-16 md:ml-2">
     ISTQB Certified Tester – Foundation Level (CTFL) | 2026
   </p>
 </div>
