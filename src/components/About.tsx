@@ -17,8 +17,8 @@ export default function About() {
         >
           <div className="relative">
             <motion.img
-              src="https://miro.medium.com/v2/resize:fit:1280/1*uYkZXXw-QL-N_1gVndPH9A.gif"
-              alt="Working Woman"
+              src="https://drive.google.com/file/d/1pjJObNT7V6qqrxM0OXsQtSQQ20yE5W9b/view?usp=sharing"
+              alt="certificate"
               className="rounded-lg shadow-lg lg:w-8/12 md:-mt-5 md:ml-32"
               whileHover={{ scale: 1.1 }}
               transition={{ duration: 0.4 }}
