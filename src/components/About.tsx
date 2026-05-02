@@ -41,9 +41,9 @@ export default function About() {
           </p>
           <p className="text-lg sm:text-xl text-gray-700 leading-relaxed ml-16 md:ml-2">
            I have hands-on experience in manual and automation testing of web applications and APIs. I specialize in designing test cases, identifying defects, and ensuring software quality through effective testing practices. 
-           My expertise includes <span className="text-blue-700 font-medium">  {" "}Selenium WebbDriver with Java, TestNG, Playwright, and API testing using Postman.
+           My expertise includes <span className="text-blue-700 font-medium">  {" "}Selenium WebDriver with Java, TestNG, Playwright, and API testing using Postman.
            </span>
-            I ma particularly intersted in building reliable automation scripts and improving test efficiency.
+            I am particularly intersted in building reliable automation scripts and improving test efficiency.
             
           </p>
         </motion.div>
