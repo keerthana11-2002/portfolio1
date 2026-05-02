@@ -17,7 +17,7 @@ export default function About() {
         >
           <div className="relative">
             <motion.img
-              src="https://drive.google.com/file/d/1pjJObNT7V6qqrxM0OXsQtSQQ20yE5W9b/view?usp=sharing"
+              src="https://drive.google.com/uc?export=view&id=1pjJObNT7V6qqrxM0OXsQtSQQ20yE5W9b"
               alt="certificate"
               className="rounded-lg shadow-lg lg:w-8/12 md:-mt-5 md:ml-32"
               whileHover={{ scale: 1.1 }}
@@ -48,7 +48,7 @@ export default function About() {
           </p>
           {/* ✅ Certification placed here */}
 <div className="mt-6 ml-16 md:ml-2">
-  <p className="text-lg sm:text-xl text-gray-700 leading-relaxed ml-16 md:ml-2">
+  <p className="text-lg sm:text-xl text-blue-700 leading-relaxed ml-16 md:ml-2">
     Certification:
   </p>
   <p className="text-lg sm:text-xl text-gray-700 leading-relaxed ml-16 md:ml-2">
