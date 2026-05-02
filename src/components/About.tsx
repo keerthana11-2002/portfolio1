@@ -36,15 +36,14 @@ export default function About() {
           
           <p className="text-lg sm:text-xl text-gray-700 leading-relaxed mb-4 ml-20 md:ml-2 md:mt-20">
             My name is <span className="font-bold text-blue-700">Keerthana J K</span>. 
-            I'm a <span className="text-primary font-semibold">QA Automation Engineer </span> 
+            I'm a <span className="text-primary font-semibold">ISTQB CTFL certified QA Tester </span> 
             based in <span className="font-semibold text-gray-800">Bangalore</span>.
           </p>
           <p className="text-lg sm:text-xl text-gray-700 leading-relaxed ml-16 md:ml-2">
-            I am a professional and passionate programmer with a quick learning and 
-            self-driven attitude. I enjoy exploring new technologies and bringing ideas 
-            to life through clean and efficient code. My current expertise includes: <span className="text-blue-700 font-medium">  
-          Manual and Automation Testing, with hands-on experience in tools and frameworks such as Selenium, Playwright, TestNG, and API Testing using Java. </span> 
-
+           I have hands-on experience in manual and automation testing of web applications and APIs. I specialize in designing test cases, identifying defects, and ensuring software quality through effective testing practices. 
+           My expertise includes <span className="text-blue-700 font-medium">  {" "}Selenium WebbDriver with Java, TestNG, Playwright, and API testing using Postman.
+           </span>
+            I ma particularly intersted in building reliable automation scripts and improving test efficiency.
             
           </p>
         </motion.div>
