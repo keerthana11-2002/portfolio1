@@ -17,7 +17,7 @@ export default function About() {
         >
           <div className="relative">
             <motion.img
-              src="https://drive.google.com/uc?export=view&id=1pjJObNT7V6qqrxM0OXsQtSQQ20yE5W9b"
+              src="/CFTL_Keerthana-JK_Certification.pdf"
               alt="certificate"
               className="rounded-lg shadow-lg lg:w-8/12 md:-mt-5 md:ml-32"
               whileHover={{ scale: 1.1 }}
