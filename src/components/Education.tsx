@@ -22,14 +22,8 @@ const educationData = [
     school: 'Gonzaga College of Arts And Science',
     description: '',
     image: 'side2.png'  
-  },
-  {
-    year: '2018 - 2020',
-    degree: 'Selva Matric Hr Sec School',
-    school: 'Krishnagiri, Tamilnadu',
-    description: '',
-    image: 'side3.png' 
   }
+  
 ];
 
 export default function Education() {
