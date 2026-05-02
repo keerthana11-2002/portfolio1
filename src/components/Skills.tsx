@@ -12,8 +12,8 @@ const skills = [
   { name: 'Maven', icon: 'https://miro.medium.com/v2/1*_QEbRZJ722FK7PdSNYV_yA.jpeg' },
   { name: 'Agile', icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDtFbMDrL2qz7WSAOp9HsdsA1X0GPcAvnfYg&s' },
   { name:'Postman', icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJ5yPOAbr-LrEa8ANO47RBo4f2txsvjPL-fw&s' },
-  { name: 'Git', icon: '/git.png' }
-   { name:'ISTQB', icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUK6X-yw4nitNDDvx7fTk16OBhW2yZz8mcvw&s' },
+  { name: 'Git', icon: '/git.png' },
+   { name:'ISTQB', icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUK6X-yw4nitNDDvx7fTk16OBhW2yZz8mcvw&s' }
 
    
 ]; 
