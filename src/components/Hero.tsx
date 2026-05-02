@@ -18,7 +18,7 @@ export default function Hero() {
                QA Automation Engineer
             </h2>
             <p className="text-lg text-gray-700 leading-relaxed mb-8">
-              I'm passionate about ensuring software quality through thorough testing and automation. I focus on creating reliable, efficient test scripts using modern tools like Selenium, TestNG, Playwright and Java to deliver flawless user experiences.
+            ISTQB CTFL certified QA Tester with hands-on experience in manual and automation testing of web applications and APIs. Skilled in Selenium WebDriver with Java, TestNG, and API testing using Postman. Passionate about ensuring software quality through effective test design and reliable automation.
 
             </p>
             <div className="flex gap-4">
