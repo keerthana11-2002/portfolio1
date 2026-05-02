@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 const educationData = [
   {
     year: 'Jan 2026 - Present',
-    degree: 'Software Testing',
+    degree: 'Software Testing Intern',
     school: 'Sunfra Technologies',
     description: '',
     image: 'side1.png'
