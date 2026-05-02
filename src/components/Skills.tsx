@@ -6,8 +6,7 @@ const skills = [
   { name: 'Automation Testing', icon: 'https://5.imimg.com/data5/UM/QX/OR/GLADMIN-54579732/automation.jpg' },
   { name: 'Java', icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9n6QSmgQptW2phyDWe1k6ZA8eRzhjlx2Vxg&s' },
  { name: 'Python', icon: 'https://www.321webmarketing.com/wp-content/uploads/2018/06/Python-language-symbol-1024x512.jpg' },
-
-  { name: 'Selenium', icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxWUwn1FlhKU9O6PACz_IqFi1xgrszclKn1w&s' },
+   { name: 'Selenium', icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxWUwn1FlhKU9O6PACz_IqFi1xgrszclKn1w&s' },
   { name: 'Playwright', icon: 'https://miro.medium.com/v2/1*gMiUPuRGC36nxZHe2zthOg.png' },
   { name: 'TestNG', icon: 'https://img-c.udemycdn.com/course/480x270/2325910_e7ae_10.jpg' },
   { name: 'Maven', icon: 'https://miro.medium.com/v2/1*_QEbRZJ722FK7PdSNYV_yA.jpeg' },
