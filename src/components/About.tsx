@@ -46,6 +46,15 @@ export default function About() {
             I am particularly intersted in building reliable automation scripts and improving test efficiency.
             
           </p>
+          {/* ✅ Certification placed here */}
+<div className="mt-6 ml-16 md:ml-2">
+  <p className="text-md font-semibold text-gray-800">
+    Certification:
+  </p>
+  <p className="text-sm text-gray-700">
+    ISTQB Certified Tester – Foundation Level (CTFL) | 2026
+  </p>
+</div>
         </motion.div>
       </div>
     </section>
