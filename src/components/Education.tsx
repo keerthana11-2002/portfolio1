@@ -3,9 +3,9 @@ import { motion } from 'framer-motion';
 
 const educationData = [
   {
-    year: '2025',
-    degree: 'QA Automation Engineer',
-    school: 'Grow SkillIt Insitution',
+    year: 'Jan 2026 - Present',
+    degree: 'Software Testing',
+    school: 'Sunfra Technologies',
     description: '',
     image: 'side1.png'
   },
