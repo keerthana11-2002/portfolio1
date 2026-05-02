@@ -10,6 +10,13 @@ const educationData = [
     image: 'side1.png'
   },
   {
+    year: '2026 - 2028',
+    degree: 'Master of Computer Applications',
+    school: 'Manipal Academy of Higher Education',
+    description: '',
+    image: 'side2.png'  
+  },
+  {
     year: '2020 - 2023',
     degree: 'Bachelor of Science in Computer Science',
     school: 'Gonzaga College of Arts And Science',
